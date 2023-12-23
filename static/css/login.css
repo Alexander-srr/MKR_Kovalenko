@@ -1,0 +1,75 @@
+/* Стилі для контейнера */
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Стилі для заголовку */
+.container h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #232323;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Стилі для форм */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стилі для вхідних полів */
+form input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Стилі для кнопки */
+form button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #fed136;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #fec503;
+}
+
+/* Стилі для посилань */
+.container a.btn {
+    font-family: 'Raleway', sans-serif;
+    color: #fec503;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.container a.btn:hover {
+    text-decoration: underline;
+}
+
+/* Медіа запити для адаптивного дизайну */
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 15px;
+    }
+
+    .container h2 {
+        font-size: 25px;
+    }
+}
